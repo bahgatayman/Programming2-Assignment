@@ -46,7 +46,7 @@ bank.title("Bank Misr - Plan Your Loan Application")
 bank.geometry("700x600+330+80")
 
 # I made a comment because if the image path is not working, there will be no error for the code
-# logo=tk.PhotoImage(file="Banque_Misr.png")
+# logo=tk.PhotoImage(file="Logo.Banque_Misr.png")
 # logo_lable=tk.Label(bank,image=logo)
 # logo_lable.pack()
 
