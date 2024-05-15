@@ -45,9 +45,10 @@ bank = tk.Tk()
 bank.title("Bank Misr - Plan Your Loan Application")
 bank.geometry("700x600+330+80")
 
-logo=tk.PhotoImage(file="G:\\2st\\sms2\\Prog2\\GUI\\Banque_Misr.png")
-logo_lable=tk.Label(bank,image=logo)
-logo_lable.pack()
+# I made a comment because if the image path is not working, there will be no error for the code
+# logo=tk.PhotoImage(file="Banque_Misr.png")
+# logo_lable=tk.Label(bank,image=logo)
+# logo_lable.pack()
 
 welcome = tk.Label(bank, text="Welcome To Bank Misr - Plan Your Loan",pady=10,fg='brown3',font=("Arial Bold", 17))
 welcome.pack()
